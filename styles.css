@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    background-color: #bbada0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.tile {
+    background-color: #ccc0b3;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#score {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#resetButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #8f7a66;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#resetButton:hover {
+    background-color: #6d5e4e;
+}
+
+#message {
+    font-size: 18px;
+    margin-top: 20px;
+}
